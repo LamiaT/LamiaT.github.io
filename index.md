@@ -1,1 +1,3 @@
-contains the content you want to display on the main page of your site.
+Welcome to my site.
+
+This page contains the content I want to display on the main page of my site.
