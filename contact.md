@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en">
   
   <head>
@@ -10,7 +8,7 @@
   <body>
     <h1> Contact At </h1>
     Lamia Tabassum
-    <br> E-mail Address: [first name].[last name][at]g.bracu.ac.bd </br>
+    E-mail Address: [first name].[last name][at]g.bracu.ac.bd
   </body>
   
 </html>
