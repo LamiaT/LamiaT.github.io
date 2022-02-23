@@ -6,9 +6,10 @@
   </head>
   
   <body>
-    <h1> Contact At </h1>
-    Lamia Tabassum
-    E-mail Address: [first name].[last name][at]g.bracu.ac.bd
+    <h1> Contact Information</h1>
+    <h2> Lamia Tabassum </h2>
+    <br>
+    <h2> <b>E-mail Address: [first name].[last name][at]g.bracu.ac.bd</b> </h2>
   </body>
   
 </html>
