@@ -1,6 +1,13 @@
----
-layout: tactile
-title: LAMIA TABASSUM
----
-permalink: /404.html
 theme: jekyll-theme-tactile
+title: Lamia Tabassum
+author: LT
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my Portfolio Website. 
+  
+  A website where you'll find information about my projects, documentation, and miscellaneous posts about gardening.
+  
+  Happy Reading! :D
+
+
+# social links
+github_username:  LamiaT # DO NOT include the @ character, or else the build will fail!
