@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2a43f881368a4375bb2e4d3f1ec940b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2a43f881368a4375bb2e4d3f1ec940b8" ></div>
+        
+</body>
+<script>    
+    
+            var map_2a43f881368a4375bb2e4d3f1ec940b8 = L.map(
+                "map_2a43f881368a4375bb2e4d3f1ec940b8",
+                {
+                    center: [23.783765236130307, 90.38324678768981],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_13df035030264bb0b23f1bbfd92dea91 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+            var marker_98693c53ad5c443f8365b6089bb66ff1 = L.marker(
+                [23.74004787, 90.41781499],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_a34661353d9f434ead3b9806a9c6b963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52295106663e482ca377a8ca2508bdf8 = $(`<div id="html_52295106663e482ca377a8ca2508bdf8" style="width: 100.0%; height: 100.0%;"><strong>Bangabandhu Sheikh Mujib Medical University Hospital</strong></div>`)[0];
+            popup_a34661353d9f434ead3b9806a9c6b963.setContent(html_52295106663e482ca377a8ca2508bdf8);
+        
+
+        marker_98693c53ad5c443f8365b6089bb66ff1.bindPopup(popup_a34661353d9f434ead3b9806a9c6b963)
+        ;
+
+        
+    
+    
+            marker_98693c53ad5c443f8365b6089bb66ff1.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d9b955bda314e5e931344502a553838 = L.marker(
+                [23.73650824, 90.41671757],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_3d842414059340348aa760b362415b22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85aa15cda0d64504b4dfc5826a0143f4 = $(`<div id="html_85aa15cda0d64504b4dfc5826a0143f4" style="width: 100.0%; height: 100.0%;"><strong>Central Police Hospital</strong></div>`)[0];
+            popup_3d842414059340348aa760b362415b22.setContent(html_85aa15cda0d64504b4dfc5826a0143f4);
+        
+
+        marker_5d9b955bda314e5e931344502a553838.bindPopup(popup_3d842414059340348aa760b362415b22)
+        ;
+
+        
+    
+    
+            marker_5d9b955bda314e5e931344502a553838.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69aa2eac718040f1b50587525832ca43 = L.marker(
+                [23.76575921, 90.38049238],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_2f68114247ab4b209131160296b4df7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e855fa4ec224fd789eb223b5f78e8f6 = $(`<div id="html_7e855fa4ec224fd789eb223b5f78e8f6" style="width: 100.0%; height: 100.0%;"><strong>Bangladesh Parliament Secretariat Clinic</strong></div>`)[0];
+            popup_2f68114247ab4b209131160296b4df7d.setContent(html_7e855fa4ec224fd789eb223b5f78e8f6);
+        
+
+        marker_69aa2eac718040f1b50587525832ca43.bindPopup(popup_2f68114247ab4b209131160296b4df7d)
+        ;
+
+        
+    
+    
+            marker_69aa2eac718040f1b50587525832ca43.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67a40425671448279e30b4579b7884ec = L.marker(
+                [23.77315117, 90.37016315],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_5d9737e5291645c592c053541ada3014 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_205a51c497ba4e47b86cf06cd6c3d5b5 = $(`<div id="html_205a51c497ba4e47b86cf06cd6c3d5b5" style="width: 100.0%; height: 100.0%;"><strong>Bangladesh Shishu Hospital and Institute</strong></div>`)[0];
+            popup_5d9737e5291645c592c053541ada3014.setContent(html_205a51c497ba4e47b86cf06cd6c3d5b5);
+        
+
+        marker_67a40425671448279e30b4579b7884ec.bindPopup(popup_5d9737e5291645c592c053541ada3014)
+        ;
+
+        
+    
+    
+            marker_67a40425671448279e30b4579b7884ec.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9f91209c463454aa5a5c8d8777e2bf1 = L.marker(
+                [23.76944042, 90.37138305],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_a6128915a6ad45ec8cad780dfb2b12e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_126eff9e5f284fccba342b644c2c59a8 = $(`<div id="html_126eff9e5f284fccba342b644c2c59a8" style="width: 100.0%; height: 100.0%;"><strong>Shaheed Suhrawardy Medical College and Hospital</strong></div>`)[0];
+            popup_a6128915a6ad45ec8cad780dfb2b12e1.setContent(html_126eff9e5f284fccba342b644c2c59a8);
+        
+
+        marker_e9f91209c463454aa5a5c8d8777e2bf1.bindPopup(popup_a6128915a6ad45ec8cad780dfb2b12e1)
+        ;
+
+        
+    
+    
+            marker_e9f91209c463454aa5a5c8d8777e2bf1.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71771b5f9aa74549987bd148d52a60cd = L.marker(
+                [23.77065501, 90.36963125],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_4f588ee6f7da4f5dbe497f434a3cc266 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_554cd64f007d4ae0a4402f5f37586ef5 = $(`<div id="html_554cd64f007d4ae0a4402f5f37586ef5" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Cardiovascular Diseases</strong></div>`)[0];
+            popup_4f588ee6f7da4f5dbe497f434a3cc266.setContent(html_554cd64f007d4ae0a4402f5f37586ef5);
+        
+
+        marker_71771b5f9aa74549987bd148d52a60cd.bindPopup(popup_4f588ee6f7da4f5dbe497f434a3cc266)
+        ;
+
+        
+    
+    
+            marker_71771b5f9aa74549987bd148d52a60cd.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55171c57019b409d90f408e8098c0400 = L.marker(
+                [23.77184433, 90.36866527],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_04f0c981bd1e4ab49c36bded7eebee99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cc89747d5734fc6bf0fb10c0254aa1a = $(`<div id="html_1cc89747d5734fc6bf0fb10c0254aa1a" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Kidney Diseases & Urology</strong></div>`)[0];
+            popup_04f0c981bd1e4ab49c36bded7eebee99.setContent(html_1cc89747d5734fc6bf0fb10c0254aa1a);
+        
+
+        marker_55171c57019b409d90f408e8098c0400.bindPopup(popup_04f0c981bd1e4ab49c36bded7eebee99)
+        ;
+
+        
+    
+    
+            marker_55171c57019b409d90f408e8098c0400.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_251e76c53b1d494790f9d3bf91891cd2 = L.marker(
+                [23.77255127, 90.36825757],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_4ceae17c6c754b6d8e8bce2e7b90a7a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08339b75ad4d4ded8ed76f888f5192dc = $(`<div id="html_08339b75ad4d4ded8ed76f888f5192dc" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Mental Health and Hospital</strong></div>`)[0];
+            popup_4ceae17c6c754b6d8e8bce2e7b90a7a5.setContent(html_08339b75ad4d4ded8ed76f888f5192dc);
+        
+
+        marker_251e76c53b1d494790f9d3bf91891cd2.bindPopup(popup_4ceae17c6c754b6d8e8bce2e7b90a7a5)
+        ;
+
+        
+    
+    
+            marker_251e76c53b1d494790f9d3bf91891cd2.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aee792aa3cad4790834ae6578bf95d07 = L.marker(
+                [23.77382941, 90.37029341],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_091a1f875e6944dc9c4dff7235ead6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80d0dddc32a74cf2b6f0277f65350257 = $(`<div id="html_80d0dddc32a74cf2b6f0277f65350257" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Traumatology and Orthopaedic Rehabilitation</strong></div>`)[0];
+            popup_091a1f875e6944dc9c4dff7235ead6f5.setContent(html_80d0dddc32a74cf2b6f0277f65350257);
+        
+
+        marker_aee792aa3cad4790834ae6578bf95d07.bindPopup(popup_091a1f875e6944dc9c4dff7235ead6f5)
+        ;
+
+        
+    
+    
+            marker_aee792aa3cad4790834ae6578bf95d07.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30a17d540da04a4b969b21f3c1f31615 = L.marker(
+                [23.76868271, 90.37057337],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_4b8a2285f1bb48129ddd347360b30815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c75798fd3054422b85c07d1aa5ea84c = $(`<div id="html_6c75798fd3054422b85c07d1aa5ea84c" style="width: 100.0%; height: 100.0%;"><strong>National Center for Control of Rheumatic Fever & Heart Disease</strong></div>`)[0];
+            popup_4b8a2285f1bb48129ddd347360b30815.setContent(html_6c75798fd3054422b85c07d1aa5ea84c);
+        
+
+        marker_30a17d540da04a4b969b21f3c1f31615.bindPopup(popup_4b8a2285f1bb48129ddd347360b30815)
+        ;
+
+        
+    
+    
+            marker_30a17d540da04a4b969b21f3c1f31615.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9551e37ebcb8424aac377aac35e1f7ac = L.marker(
+                [23.76277839, 90.36546502],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_0eb6ad3610ee48cd8ec200fd2f873433 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_482f7248f25c4b5caeb2c75cd85c31d9 = $(`<div id="html_482f7248f25c4b5caeb2c75cd85c31d9" style="width: 100.0%; height: 100.0%;"><strong>Mohammadpur Fertility Services & Training Centre, 100 Bedded Mother & Child Health Hospital</strong></div>`)[0];
+            popup_0eb6ad3610ee48cd8ec200fd2f873433.setContent(html_482f7248f25c4b5caeb2c75cd85c31d9);
+        
+
+        marker_9551e37ebcb8424aac377aac35e1f7ac.bindPopup(popup_0eb6ad3610ee48cd8ec200fd2f873433)
+        ;
+
+        
+    
+    
+            marker_9551e37ebcb8424aac377aac35e1f7ac.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d7f34d6ae1c4609b9b9ddf8f58df9cc = L.marker(
+                [23.77445175, 90.36826264],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_5b868849cad9497687bed6602736d457 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c7ae70d83843498eb7cfefec36902a = $(`<div id="html_03c7ae70d83843498eb7cfefec36902a" style="width: 100.0%; height: 100.0%;"><strong>250 Bedded E- TB hospital Shamoli</strong></div>`)[0];
+            popup_5b868849cad9497687bed6602736d457.setContent(html_03c7ae70d83843498eb7cfefec36902a);
+        
+
+        marker_7d7f34d6ae1c4609b9b9ddf8f58df9cc.bindPopup(popup_5b868849cad9497687bed6602736d457)
+        ;
+
+        
+    
+    
+            marker_7d7f34d6ae1c4609b9b9ddf8f58df9cc.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b131dc091399496c9320daa74ac31650 = L.marker(
+                [23.77465212, 90.36977499],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_f1b8ae12fdf04a39973599061f5088c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1251d7d8771443459a249138f671c9e6 = $(`<div id="html_1251d7d8771443459a249138f671c9e6" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Ophthalmology & Hospital</strong></div>`)[0];
+            popup_f1b8ae12fdf04a39973599061f5088c8.setContent(html_1251d7d8771443459a249138f671c9e6);
+        
+
+        marker_b131dc091399496c9320daa74ac31650.bindPopup(popup_f1b8ae12fdf04a39973599061f5088c8)
+        ;
+
+        
+    
+    
+            marker_b131dc091399496c9320daa74ac31650.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d675870798c24576bbd4dd3133b28ad1 = L.marker(
+                [23.77638976, 90.3708647],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_4cb34e54f62e4c9db6f11677a11bfc45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9842a3f2caf544a6bfa99a916ee6283a = $(`<div id="html_9842a3f2caf544a6bfa99a916ee6283a" style="width: 100.0%; height: 100.0%;"><strong>National Institute Of Neurosciences & Hospital</strong></div>`)[0];
+            popup_4cb34e54f62e4c9db6f11677a11bfc45.setContent(html_9842a3f2caf544a6bfa99a916ee6283a);
+        
+
+        marker_d675870798c24576bbd4dd3133b28ad1.bindPopup(popup_4cb34e54f62e4c9db6f11677a11bfc45)
+        ;
+
+        
+    
+    
+            marker_d675870798c24576bbd4dd3133b28ad1.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e82dbf9d1b7741eb9942917005c2ca5c = L.marker(
+                [23.77631257, 90.40581511],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_4a644fb2d8b14fec8805b5dab25de683 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e11027041df342ada1c1e4943da5bb7b = $(`<div id="html_e11027041df342ada1c1e4943da5bb7b" style="width: 100.0%; height: 100.0%;"><strong>Dhaka Infectious Diseases Hospital</strong></div>`)[0];
+            popup_4a644fb2d8b14fec8805b5dab25de683.setContent(html_e11027041df342ada1c1e4943da5bb7b);
+        
+
+        marker_e82dbf9d1b7741eb9942917005c2ca5c.bindPopup(popup_4a644fb2d8b14fec8805b5dab25de683)
+        ;
+
+        
+    
+    
+            marker_e82dbf9d1b7741eb9942917005c2ca5c.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9168bd8378144c9586eab28f58253f2f = L.marker(
+                [23.77736005, 90.41005197],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_902a451be45f4959a487e5b5b07dcd86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecc3460a04d04fa7a88056e0dafb0967 = $(`<div id="html_ecc3460a04d04fa7a88056e0dafb0967" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Diseases of the Chest and Hospital</strong></div>`)[0];
+            popup_902a451be45f4959a487e5b5b07dcd86.setContent(html_ecc3460a04d04fa7a88056e0dafb0967);
+        
+
+        marker_9168bd8378144c9586eab28f58253f2f.bindPopup(popup_902a451be45f4959a487e5b5b07dcd86)
+        ;
+
+        
+    
+    
+            marker_9168bd8378144c9586eab28f58253f2f.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16f460f7d5dc40b7a478329533c3e530 = L.marker(
+                [23.7763087, 90.41143767],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_046ba2d5b4b148658c574f8efbc1cc8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9991c6b63d984455aa97171e9fe511df = $(`<div id="html_9991c6b63d984455aa97171e9fe511df" style="width: 100.0%; height: 100.0%;"><strong>Sheikh Russel Gastroliver Institute & Hospital</strong></div>`)[0];
+            popup_046ba2d5b4b148658c574f8efbc1cc8e.setContent(html_9991c6b63d984455aa97171e9fe511df);
+        
+
+        marker_16f460f7d5dc40b7a478329533c3e530.bindPopup(popup_046ba2d5b4b148658c574f8efbc1cc8e)
+        ;
+
+        
+    
+    
+            marker_16f460f7d5dc40b7a478329533c3e530.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa5c19ca4dac4893abb3e58cc02b632e = L.marker(
+                [23.7785183, 90.40938252],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_dda8a8ce681f49529f55af36b7b3a993 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed3d483e79b24a76b93133a1fa7d93ed = $(`<div id="html_ed3d483e79b24a76b93133a1fa7d93ed" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Cancer Research & Hospital</strong></div>`)[0];
+            popup_dda8a8ce681f49529f55af36b7b3a993.setContent(html_ed3d483e79b24a76b93133a1fa7d93ed);
+        
+
+        marker_fa5c19ca4dac4893abb3e58cc02b632e.bindPopup(popup_dda8a8ce681f49529f55af36b7b3a993)
+        ;
+
+        
+    
+    
+            marker_fa5c19ca4dac4893abb3e58cc02b632e.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be64d576bd204535964a1f4daa9bcd89 = L.marker(
+                [23.87068037, 90.403649],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_949a3b755345472ea3df87a71cd3870e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2519d498c4834ec099751ead33ab9c7f = $(`<div id="html_2519d498c4834ec099751ead33ab9c7f" style="width: 100.0%; height: 100.0%;"><strong>Kuwait Bangladesh Friendship Government Hospital</strong></div>`)[0];
+            popup_949a3b755345472ea3df87a71cd3870e.setContent(html_2519d498c4834ec099751ead33ab9c7f);
+        
+
+        marker_be64d576bd204535964a1f4daa9bcd89.bindPopup(popup_949a3b755345472ea3df87a71cd3870e)
+        ;
+
+        
+    
+    
+            marker_be64d576bd204535964a1f4daa9bcd89.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18467bd51f0d41f78a02ff4690b54dcd = L.marker(
+                [23.78869246, 90.34619268],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_3f51fb8d4f714703a71e583b5d1aec90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce36b25b48e14b54b1f69bede3042094 = $(`<div id="html_ce36b25b48e14b54b1f69bede3042094" style="width: 100.0%; height: 100.0%;"><strong>Maternal and Child Health Training Institute Lalkuthi Hospital</strong></div>`)[0];
+            popup_3f51fb8d4f714703a71e583b5d1aec90.setContent(html_ce36b25b48e14b54b1f69bede3042094);
+        
+
+        marker_18467bd51f0d41f78a02ff4690b54dcd.bindPopup(popup_3f51fb8d4f714703a71e583b5d1aec90)
+        ;
+
+        
+    
+    
+            marker_18467bd51f0d41f78a02ff4690b54dcd.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d98ff8501a60433f9b631e1366c64620 = L.marker(
+                [23.79175486, 90.34671334],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_58e35f9dae154dbc9af110d719b9b63f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52d91cdb236f464c93f3ea27c72f64d6 = $(`<div id="html_52d91cdb236f464c93f3ea27c72f64d6" style="width: 100.0%; height: 100.0%;"><strong>Nagor Matri Sadon Kendro 3</strong></div>`)[0];
+            popup_58e35f9dae154dbc9af110d719b9b63f.setContent(html_52d91cdb236f464c93f3ea27c72f64d6);
+        
+
+        marker_d98ff8501a60433f9b631e1366c64620.bindPopup(popup_58e35f9dae154dbc9af110d719b9b63f)
+        ;
+
+        
+    
+    
+            marker_d98ff8501a60433f9b631e1366c64620.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25858bde8e81427a8f88b09105fb9ea7 = L.marker(
+                [23.79928471, 90.38795575],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_3b39f72414c64ab0a29adc13cd9a4b80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a4f018632c44bed87b568b9885f78a5 = $(`<div id="html_1a4f018632c44bed87b568b9885f78a5" style="width: 100.0%; height: 100.0%;"><strong>Dhaka Dental College Hospital</strong></div>`)[0];
+            popup_3b39f72414c64ab0a29adc13cd9a4b80.setContent(html_1a4f018632c44bed87b568b9885f78a5);
+        
+
+        marker_25858bde8e81427a8f88b09105fb9ea7.bindPopup(popup_3b39f72414c64ab0a29adc13cd9a4b80)
+        ;
+
+        
+    
+    
+            marker_25858bde8e81427a8f88b09105fb9ea7.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1714c0e2c5a24b1f852090fe459cd622 = L.marker(
+                [23.73228729, 90.43003855],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_c84005d4d6ce416b924a8fea5ebfa1a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_350921f143c441dd97f73d83913f5f5e = $(`<div id="html_350921f143c441dd97f73d83913f5f5e" style="width: 100.0%; height: 100.0%;"><strong>Mugda Medical College and Hospital</strong></div>`)[0];
+            popup_c84005d4d6ce416b924a8fea5ebfa1a9.setContent(html_350921f143c441dd97f73d83913f5f5e);
+        
+
+        marker_1714c0e2c5a24b1f852090fe459cd622.bindPopup(popup_c84005d4d6ce416b924a8fea5ebfa1a9)
+        ;
+
+        
+    
+    
+            marker_1714c0e2c5a24b1f852090fe459cd622.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c17fdbc1ade435d9c9e0b129d344222 = L.marker(
+                [23.72754978, 90.43238844],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_b2905930b9354578af06bebd3be0c6fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_709d4b33ba2443198f5ee0056e090374 = $(`<div id="html_709d4b33ba2443198f5ee0056e090374" style="width: 100.0%; height: 100.0%;"><strong>Dhalpur-Nagar Matrisodon</strong></div>`)[0];
+            popup_b2905930b9354578af06bebd3be0c6fb.setContent(html_709d4b33ba2443198f5ee0056e090374);
+        
+
+        marker_5c17fdbc1ade435d9c9e0b129d344222.bindPopup(popup_b2905930b9354578af06bebd3be0c6fb)
+        ;
+
+        
+    
+    
+            marker_5c17fdbc1ade435d9c9e0b129d344222.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da9a07ed413b4deab440f0c646b5cfb3 = L.marker(
+                [23.76364976, 90.40554495],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_bb9c6d0bf9bd45fa96b309087d8e0a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcfa8cfd0e034676b92a9bd0e7e0f926 = $(`<div id="html_dcfa8cfd0e034676b92a9bd0e7e0f926" style="width: 100.0%; height: 100.0%;"><strong>National Institute of Ear, Nose & Throat</strong></div>`)[0];
+            popup_bb9c6d0bf9bd45fa96b309087d8e0a01.setContent(html_dcfa8cfd0e034676b92a9bd0e7e0f926);
+        
+
+        marker_da9a07ed413b4deab440f0c646b5cfb3.bindPopup(popup_bb9c6d0bf9bd45fa96b309087d8e0a01)
+        ;
+
+        
+    
+    
+            marker_da9a07ed413b4deab440f0c646b5cfb3.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68fa9003608e4112a2d29956eb00143e = L.marker(
+                [23.82656182, 90.36038357],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_17bdb514825549f996542bc4472670be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60a230e5474d47d0a908fc2c38e0036c = $(`<div id="html_60a230e5474d47d0a908fc2c38e0036c" style="width: 100.0%; height: 100.0%;"><strong>Nagar Matrisadan and Nagar Sashtho Kendro 2</strong></div>`)[0];
+            popup_17bdb514825549f996542bc4472670be.setContent(html_60a230e5474d47d0a908fc2c38e0036c);
+        
+
+        marker_68fa9003608e4112a2d29956eb00143e.bindPopup(popup_17bdb514825549f996542bc4472670be)
+        ;
+
+        
+    
+    
+            marker_68fa9003608e4112a2d29956eb00143e.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_280319fe60474390a76776be4a97a05c = L.marker(
+                [23.74626539, 90.42757067],
+                {}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+    
+        var popup_0e26ac56ee0a465fadd314023f3038ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbb4149ac5394ce8a66cb970e05dd316 = $(`<div id="html_dbb4149ac5394ce8a66cb970e05dd316" style="width: 100.0%; height: 100.0%;"><strong>Nagar Matrisadan Tilpapara</strong></div>`)[0];
+            popup_0e26ac56ee0a465fadd314023f3038ab.setContent(html_dbb4149ac5394ce8a66cb970e05dd316);
+        
+
+        marker_280319fe60474390a76776be4a97a05c.bindPopup(popup_0e26ac56ee0a465fadd314023f3038ab)
+        ;
+
+        
+    
+    
+            marker_280319fe60474390a76776be4a97a05c.bindTooltip(
+                `<div>
+                     Click it!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_3ff7a90e4d834853be5257a3a7fc904b = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_13df035030264bb0b23f1bbfd92dea91,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_3ff7a90e4d834853be5257a3a7fc904b.base_layers,
+                layer_control_3ff7a90e4d834853be5257a3a7fc904b.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_2a43f881368a4375bb2e4d3f1ec940b8);
+        
+</script>
