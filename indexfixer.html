@@ -601,142 +601,145 @@
 				</section>
 			</div>
 			<!--About page area end-->
-	    
-	    
-	<!--Contact page area starts -->
-	<div id="contactus" class="pt-page">
-		<section>
-			<div class="contentRight contactpage">
-				<div class="postcontentarea">
-					<div class="post">
-						<div class="content-r-inner">
-							<div class="col-md-6 col-xs-12 col-lg-7">
-								<div class="subtitle">
-									Contact Me
+			
+			<!--Contact page area start-->
+			<div id="contactus" class="pt-page">
+				<section>
+					<div class="contentRight contactpage">
+						<div class="postcontentarea">
+							<div class="post">
+								
+								<div class="content-r-inner">
+										
+									<div class="col-md-6 col-xs-12 col-lg-7">
+										<div class="subtitle">
+											Contact Me
+										</div>
+										
+										<h2>lamia tabassum</h2>
+										<br>
+										<h2>[first name].[last name]@g.bracu.ac.bd</h2>
+										<br>
+										<h2>[first name].[last name]444@gmail.com</h2>
+										<br>
+									</div>
+									
+									<div class="col-md-6 col-xs-12 col-lg-5 right-content-box"></div>
 								</div>
 								
-								<h2>lamia tabassum</h2>
-								<br>
-								<h2>[first name].[last name]@g.bracu.ac.bd</h2>
-								<br>
-								<h2>[first name].[last name]444@gmail.com</h2>
-								<br>
 							</div>
 							
-							<div class="col-md-6 col-xs-12 col-lg-5 right-content-box"></div>
+							<div class="divider30">
+								&nbsp;
+							</div>
+							
+							<div class="col-xs-12 col-sm-6"></div>
+							
+							<div class="col-xs-12 col-sm-6">
+								<div>
+									<ul class="socialpost">
+										<li><a href="https://github.com/LamiaT" target="_blank" class=""><i class="fa fa-github"></i></a></li>
+										<li><a class=" fa fa-envelope-o" href="mailto:lamia.tabassum444@gmail.com"><span class="label"></span></a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="divider30">
+								&nbsp;
+							</div>
+							
+							<div class="clear"></div>
+						
 						</div>
 					</div>
-						
-					<div class="divider30">
-						&nbsp;
-					</div>
-						
-					<div class="col-xs-12 col-sm-6"></div>
-						
-					<div class="col-xs-12 col-sm-6">
-						<div>
-							<ul class="socialpost">
-								<li><a href="https://github.com/LamiaT" target="_blank" class=""><i class="fa fa-github"></i></a></li>
-							</ul>
-						</div>
-					</div>
-						
-					<div class="divider30">
-						&nbsp;
-					</div>
-						
-					<div class="clear"></div>
-				</div>
+				</section>
 			</div>
-		</section>
-	</div>
-	<!--Contact page area ends -->
-	
-	
-	<!--Blog page area starts -->
-	<div id="blog" class="pt-page">
-		<section>
-			<a class="next">Next</a>
-			<div class="contentRight">
-				<div class="postcontentarea"></div>
+			<!--Contact page area end-->
+			
+			
+			<!--Blog page area start-->
+			<div id="blog" class="pt-page">
+				<section>
+					
+					<a class="next">Next</a>
+					
+					<div class="contentRight">
+						<div class="postcontentarea"></div>
+					</div>
+				
+				</section>
 			</div>
-		</section>
-	</div>
-	<!--Blog page area ends -->
-	
+			<!--Blog page area end-->
 		
-</div> <!--Wrapper div ends??? -->
-										
+		
+		</div> <!-- Wrapper -->
+		
+		
+		
+		
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+		
+		<script src="js/jquery.scrollTo.min.js" type="text/javascript"></script>
+		
+		<script type='text/javascript' src="js/jquery.nicescroll.min.js"></script>
+		
+		<script src="js/custom.js" type="text/javascript"></script>
+		
+		<script src="js/owl.carousel.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$("#skills-slider").owlCarousel({
+					autoPlay : 3000,
+					items : 4,
+					itemsDesktop : [1199,3],
+					itemsDesktopSmall : [979,3]
+				});
+			});
+		</script>
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$("#headerToClick").click(function(){
+					$("#text1").css("visibility","visible");
+				});  
+				$("#smallimg").click(function(){
+					$("#text1").css("visibility","hidden");
+				});  
+				$("#portImage1").click(function(){
+					$("#text1").css("visibility","hidden");
+				});         
+			});
+		</script>
+		
+		<script>
+			$(function(){
+				$("#typed").typed({
+					// strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+					stringsElement: $('#typed-strings'),
+					typeSpeed: 0,
+					backDelay: 1500,
+					loop: true,
+					contentType: 'html', // or text
+					// defaults to false for infinite loop
+					loopCount: false,
+					callback: function(){ foo(); },
+					resetCallback: function() { newTyped(); }
+				});
+				$(".reset").click(function(){
+					$("#typed").typed('reset');
+				});
+			});
+			
+			function newTyped(){ /* A new typed object */ }
+			
+			function foo(){ console.log("Callback"); }
+		</script>
+		
+		<script src="js/typed.js"></script>
 	
 	
-      
-      
-      <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-      
-      <script src="js/jquery.scrollTo.min.js" type="text/javascript"></script>
-      
-      <script type='text/javascript' src="js/jquery.nicescroll.min.js"></script>
-      
-      <script src="js/custom.js" type="text/javascript"></script>
-      
-      <script src="js/owl.carousel.js" type="text/javascript"></script>
-      
-      <script type="text/javascript">
-        $(document).ready(function () {
-            $("#skills-slider").owlCarousel({
-                autoPlay: 3000, //Set AutoPlay to 3 seconds
-      
-			      items : 4,
-			      itemsDesktop : [1199,3],
-			      itemsDesktopSmall : [979,3]
-            });
-        });
-      </script>
-      
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $('#headerToClick').click(function(){
-            $('#text1').css("visibility","visible");
-          });  
-          $('#smallimg').click(function(){
-            $('#text1').css("visibility","hidden");
-          });  
-          $('#portImage1').click(function(){
-            $('#text1').css("visibility","hidden");
-          });         
-        });
-      </script>
-      
-      <script>
-        $(function(){
-      
-            $("#typed").typed({
-                // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
-                stringsElement: $('#typed-strings'),
-                typeSpeed: 0,
-                backDelay: 1500,
-                loop: true,
-                contentType: 'html', // or text
-                // defaults to false for infinite loop
-                loopCount: false,
-                callback: function(){ foo(); },
-                resetCallback: function() { newTyped(); }
-            });
+	</body>
 
-            $(".reset").click(function(){
-                $("#typed").typed('reset');
-            });
-     
-        });
 
-        function newTyped(){ /* A new typed object */ }
-     
-        function foo(){ console.log("Callback"); }
-     
-      </script>
-      
-      <script src="js/typed.js"></script>
-        
-  </body>
-  
 </html>
