@@ -573,7 +573,6 @@ function aboutcube() {
     "about" == presentPageforcube || (document.getElementById("aboutus").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
 				      document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
 				      document.getElementById("contactus").className += " pt-page-moveToLeftFade",
-				      document.getElementById("team").className += " pt-page-moveToLeftFade",
 				      document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
 				      document.getElementById("blog").className += " pt-page-moveToLeftFade",
 				      $("#smallimg").removeClass("leftpos"),
@@ -586,7 +585,6 @@ function aboutalertFunc() {
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("thumbnails").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -595,7 +593,6 @@ function aboutcubeone() {
 	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-	    document.getElementById("team").className += " pt-page-moveToLeftFade",
 	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
 	    presentPageforcube = "thumb",
 	    setTimeout(aboutalertFuncone, 1e3)
@@ -606,7 +603,6 @@ function aboutalertFuncone() {
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -615,7 +611,6 @@ function thumbnailscube() {
     "thumbnails" == presentPageforcube || (document.getElementById("thumbnails").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
 					   document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 					   document.getElementById("contactus").className += " pt-page-moveToLeftFade",
-					   document.getElementById("team").className += " pt-page-moveToLeftFade",
 					   document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
 					   document.getElementById("blog").className += " pt-page-moveToLeftFade",
 					   $("#smallimg").removeClass("leftpos"),
@@ -628,7 +623,6 @@ function thumbnailsalertFunc() {
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -637,7 +631,6 @@ function thumbnailscubeone() {
 	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-	    document.getElementById("team").className += " pt-page-moveToLeftFade",
 	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
 	    presentPageforcube = "thumb",
 	    setTimeout(thumbnailsalertFuncone, 1e3)
@@ -648,7 +641,6 @@ function thumbnailsalertFuncone() {
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -657,7 +649,6 @@ function contactcube() {
     "contact" == presentPageforcube || (document.getElementById("contactus").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
 					document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
 					document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
-					document.getElementById("team").className += " pt-page-moveToLeftFade",
 					document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
 					document.getElementById("blog").className += " pt-page-moveToLeftFade",
 					$("#smallimg").removeClass("leftpos"),
@@ -670,7 +661,6 @@ function contactalertFunc() {
 	    document.getElementById("thumbnails").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -679,7 +669,6 @@ function contactcubeone() {
 	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-	    document.getElementById("team").className += " pt-page-moveToLeftFade",
 	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
 	    presentPageforcube = "thumb",
 	    setTimeout(contactalertFuncone, 1e3)
@@ -690,7 +679,6 @@ function contactalertFuncone() {
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -700,7 +688,6 @@ function landingpagecube() {
 					    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 					    document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
 					    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
-					    document.getElementById("team").className += " pt-page-moveToLeftFade",
 					    document.getElementById("blog").className += " pt-page-moveToLeftFade",
 					    $("#smallimg").removeClass("leftpos"),
 					    presentPageforcube = "landingpage",
@@ -712,7 +699,6 @@ function landingpagealertFunc() {
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("thumbnails").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -721,7 +707,6 @@ function landingpagecubeone() {
 	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-	    document.getElementById("team").className += " pt-page-moveToLeftFade",
 	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
 	    presentPageforcube = "thumb",
 	    setTimeout(contactalertFuncone, 1e3)
@@ -732,7 +717,6 @@ function landingpagealertFuncone() {
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("blog").className = "pt-page"
 }
 
@@ -785,7 +769,6 @@ function blogcube() {
 				     document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 				     document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 				     document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-				     document.getElementById("team").className += " pt-page-moveToLeftFade",
 				     $("#smallimg").removeClass("leftpos"),
 				     presentPageforcube = "blog",
 				     setTimeout(blogalertFunc, 1e3))
@@ -797,12 +780,10 @@ function blogalertFunc() {
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("team").className = "pt-page"
 }
 
 function blogcubeone() {
     document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
-	    document.getElementById("team").className += " pt-page-moveToLeftFade",
 	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
 	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
@@ -813,7 +794,6 @@ function blogcubeone() {
 
 function blogalertFuncone() {
     document.getElementById("thumbnails").className = "pt-page pt-page-current",
-	    document.getElementById("team").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("contactus").className = "pt-page",
 	    document.getElementById("landingpage").className = "pt-page",
