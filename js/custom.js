@@ -721,48 +721,6 @@ function landingpagealertFuncone() {
 }
 
 
-function teamcube() {
-    "team" == presentPageforcube || (document.getElementById("team").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
-				     document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
-				     document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
-				     document.getElementById("contactus").className += " pt-page-moveToLeftFade",
-				     document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-				     document.getElementById("blog").className += " pt-page-moveToLeftFade",
-				     $("#smallimg").removeClass("leftpos"),
-				     presentPageforcube = "team",
-				     setTimeout(teamalertFunc, 1e3))
-}
-
-function teamalertFunc() {
-    document.getElementById("team").className = "pt-page pt-page-current",
-	    document.getElementById("thumbnails").className = "pt-page",
-	    document.getElementById("aboutus").className = "pt-page",
-	    document.getElementById("contactus").className = "pt-page",
-	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("blog").className = "pt-page"
-}
-
-function teamcubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
-	    document.getElementById("team").className += " pt-page-moveToLeftFade",
-	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
-	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
-	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
-	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
-	    presentPageforcube = "thumb",
-	    setTimeout(teamalertFuncone, 1e3)
-}
-
-function teamalertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current",
-	    document.getElementById("team").className = "pt-page",
-	    document.getElementById("aboutus").className = "pt-page",
-	    document.getElementById("landingpage").className = "pt-page",
-	    document.getElementById("contactus").className = "pt-page",
-	    document.getElementById("blog").className = "pt-page"
-}
-
-
 function blogcube() {
     "blog" == presentPageforcube || (document.getElementById("blog").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
 				     document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
@@ -779,7 +737,7 @@ function blogalertFunc() {
 	    document.getElementById("thumbnails").className = "pt-page",
 	    document.getElementById("aboutus").className = "pt-page",
 	    document.getElementById("contactus").className = "pt-page",
-	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page"
 }
 
 function blogcubeone() {
@@ -871,9 +829,6 @@ var hash = window.location.hash;
 switch(hash){
     case '#about':
         aboutcube();
-		break;		
-    case '#resume':
-        teamcube();
 		break;		
     case '#portfolio':
         thumbnailscube();
