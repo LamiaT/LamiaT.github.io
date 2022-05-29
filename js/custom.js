@@ -808,10 +808,7 @@ var presentPageforcube = "thumb";
 $(window).load(function() {
     $("#wraper").addClass("animate"), $("#loader").addClass("loaderhide"), $("#row1").removeClass("initialheight"), setTimeout(firstLoad, 900)
 });
-var team = 0,
-    noteam = 0,
-    noteamimag = 3,
-    blog = 0,
+var blog = 0,
     noblog = 0,
     noblogimag = 8,
     posts = 0,
