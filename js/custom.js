@@ -568,101 +568,258 @@ function fullsiteAnimation() {
     }), a > 810 ? _.height(E) : (_.height(E), m.removeClass("clickImage"))
 }
 
+
 function aboutcube() {
-    "about" == presentPageforcube || (document.getElementById("aboutus").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("thumbnails").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", $("#smallimg").removeClass("leftpos"), presentPageforcube = "about", setTimeout(aboutalertFunc, 1e3))
+    "about" == presentPageforcube || (document.getElementById("aboutus").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+				      document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
+				      document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+				      document.getElementById("team").className += " pt-page-moveToLeftFade",
+				      document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+				      document.getElementById("blog").className += " pt-page-moveToLeftFade",
+				      $("#smallimg").removeClass("leftpos"),
+				      presentPageforcube = "about",
+				      setTimeout(aboutalertFunc, 1e3))
 }
 
 function aboutalertFunc() {
-    document.getElementById("aboutus").className = "pt-page pt-page-current", document.getElementById("contactus").className = "pt-page", document.getElementById("thumbnails").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("aboutus").className = "pt-page pt-page-current",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("thumbnails").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
 function aboutcubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", presentPageforcube = "thumb", setTimeout(aboutalertFuncone, 1e3)
+    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+	    document.getElementById("team").className += " pt-page-moveToLeftFade",
+	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+	    presentPageforcube = "thumb",
+	    setTimeout(aboutalertFuncone, 1e3)
 }
 
 function aboutalertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("aboutus").className = "pt-page", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
+
 function thumbnailscube() {
-    "thumbnails" == presentPageforcube || (document.getElementById("thumbnails").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", $("#smallimg").removeClass("leftpos"), presentPageforcube = "thumbnails", setTimeout(thumbnailsalertFunc, 1e3))
+    "thumbnails" == presentPageforcube || (document.getElementById("thumbnails").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+					   document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+					   document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+					   document.getElementById("team").className += " pt-page-moveToLeftFade",
+					   document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+					   document.getElementById("blog").className += " pt-page-moveToLeftFade",
+					   $("#smallimg").removeClass("leftpos"),
+					   presentPageforcube = "thumbnails",
+					   setTimeout(thumbnailsalertFunc, 1e3))
 }
 
 function thumbnailsalertFunc() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("contactus").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
 function thumbnailscubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", presentPageforcube = "thumb", setTimeout(thumbnailsalertFuncone, 1e3)
+    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+	    document.getElementById("team").className += " pt-page-moveToLeftFade",
+	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+	    presentPageforcube = "thumb",
+	    setTimeout(thumbnailsalertFuncone, 1e3)
 }
 
 function thumbnailsalertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("aboutus").className = "pt-page", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
+
 function contactcube() {
-    "contact" == presentPageforcube || (document.getElementById("contactus").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("thumbnails").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", $("#smallimg").removeClass("leftpos"), presentPageforcube = "contact", setTimeout(contactalertFunc, 1e3))
+    "contact" == presentPageforcube || (document.getElementById("contactus").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+					document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
+					document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+					document.getElementById("team").className += " pt-page-moveToLeftFade",
+					document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+					document.getElementById("blog").className += " pt-page-moveToLeftFade",
+					$("#smallimg").removeClass("leftpos"),
+					presentPageforcube = "contact",
+					setTimeout(contactalertFunc, 1e3))
 }
 
 function contactalertFunc() {
-    document.getElementById("contactus").className = "pt-page pt-page-current", document.getElementById("thumbnails").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("contactus").className = "pt-page pt-page-current",
+	    document.getElementById("thumbnails").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
 function contactcubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", presentPageforcube = "thumb", setTimeout(contactalertFuncone, 1e3)
+    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+	    document.getElementById("team").className += " pt-page-moveToLeftFade",
+	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+	    presentPageforcube = "thumb",
+	    setTimeout(contactalertFuncone, 1e3)
 }
 
 function contactalertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
+
 function landingpagecube() {
-    "landingpage" == presentPageforcube || (document.getElementById("landingpage").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("thumbnails").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", $("#smallimg").removeClass("leftpos"), presentPageforcube = "landingpage", setTimeout(landingpagealertFunc, 1e3))
+    "landingpage" == presentPageforcube || (document.getElementById("landingpage").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+					    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+					    document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
+					    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+					    document.getElementById("team").className += " pt-page-moveToLeftFade",
+					    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+					    $("#smallimg").removeClass("leftpos"),
+					    presentPageforcube = "landingpage",
+					    setTimeout(landingpagealertFunc, 1e3))
 }
 
 function landingpagealertFunc() {
-    document.getElementById("landingpage").className = "pt-page pt-page-current", document.getElementById("contactus").className = "pt-page", document.getElementById("thumbnails").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("landingpage").className = "pt-page pt-page-current",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("thumbnails").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
 function landingpagecubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", presentPageforcube = "thumb", setTimeout(contactalertFuncone, 1e3)
+    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+	    document.getElementById("team").className += " pt-page-moveToLeftFade",
+	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+	    presentPageforcube = "thumb",
+	    setTimeout(contactalertFuncone, 1e3)
 }
 
 function landingpagealertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("team").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
+
 function teamcube() {
-    "team" == presentPageforcube || (document.getElementById("team").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("thumbnails").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", $("#smallimg").removeClass("leftpos"), presentPageforcube = "team", setTimeout(teamalertFunc, 1e3))
+    "team" == presentPageforcube || (document.getElementById("team").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+				     document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
+				     document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+				     document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+				     document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+				     document.getElementById("blog").className += " pt-page-moveToLeftFade",
+				     $("#smallimg").removeClass("leftpos"),
+				     presentPageforcube = "team",
+				     setTimeout(teamalertFunc, 1e3))
 }
 
 function teamalertFunc() {
-    document.getElementById("team").className = "pt-page pt-page-current", document.getElementById("thumbnails").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("team").className = "pt-page pt-page-current",
+	    document.getElementById("thumbnails").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
 function teamcubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", presentPageforcube = "thumb", setTimeout(teamalertFuncone, 1e3)
+    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+	    document.getElementById("team").className += " pt-page-moveToLeftFade",
+	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+	    presentPageforcube = "thumb",
+	    setTimeout(teamalertFuncone, 1e3)
 }
 
 function teamalertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("team").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("contactus").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
 
+
 function blogcube() {
-    "blog" == presentPageforcube || (document.getElementById("blog").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("thumbnails").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("team").className += " pt-page-moveToLeftFade", $("#smallimg").removeClass("leftpos"), presentPageforcube = "blog", setTimeout(blogalertFunc, 1e3))
+    "blog" == presentPageforcube || (document.getElementById("blog").className += " pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+				     document.getElementById("thumbnails").className += " pt-page-moveToLeftFade",
+				     document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+				     document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+				     document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+				     document.getElementById("team").className += " pt-page-moveToLeftFade",
+				     $("#smallimg").removeClass("leftpos"),
+				     presentPageforcube = "blog",
+				     setTimeout(blogalertFunc, 1e3))
 }
 
 function blogalertFunc() {
-    document.getElementById("blog").className = "pt-page pt-page-current", document.getElementById("thumbnails").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("team").className = "pt-page"
+    document.getElementById("blog").className = "pt-page pt-page-current",
+	    document.getElementById("thumbnails").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("team").className = "pt-page"
 }
 
 function blogcubeone() {
-    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight", document.getElementById("team").className += " pt-page-moveToLeftFade", document.getElementById("aboutus").className += " pt-page-moveToLeftFade", document.getElementById("contactus").className += " pt-page-moveToLeftFade", document.getElementById("landingpage").className += " pt-page-moveToLeftFade", document.getElementById("blog").className += " pt-page-moveToLeftFade", presentPageforcube = "thumb", setTimeout(blogalertFuncone, 1e3)
+    document.getElementById("thumbnails").className += "pt-page-ontop pt-page-current pt-page-rotateUnfoldRight",
+	    document.getElementById("team").className += " pt-page-moveToLeftFade",
+	    document.getElementById("aboutus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("contactus").className += " pt-page-moveToLeftFade",
+	    document.getElementById("landingpage").className += " pt-page-moveToLeftFade",
+	    document.getElementById("blog").className += " pt-page-moveToLeftFade",
+	    presentPageforcube = "thumb",
+	    setTimeout(blogalertFuncone, 1e3)
 }
 
 function blogalertFuncone() {
-    document.getElementById("thumbnails").className = "pt-page pt-page-current", document.getElementById("team").className = "pt-page", document.getElementById("aboutus").className = "pt-page", document.getElementById("contactus").className = "pt-page", document.getElementById("landingpage").className = "pt-page", document.getElementById("blog").className = "pt-page"
+    document.getElementById("thumbnails").className = "pt-page pt-page-current",
+	    document.getElementById("team").className = "pt-page",
+	    document.getElementById("aboutus").className = "pt-page",
+	    document.getElementById("contactus").className = "pt-page",
+	    document.getElementById("landingpage").className = "pt-page",
+	    document.getElementById("blog").className = "pt-page"
 }
+
 
 function firstLoad() {
     $("#loader").css("display", "none")
