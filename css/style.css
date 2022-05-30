@@ -696,6 +696,10 @@ figure .contentsqz {
     -ms-transform: scale(1);
     transform: scale(1);
     -webkit-transform: scale(1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 figure .content h2,
 figure .contentsqz h2 {
@@ -707,7 +711,6 @@ figure .contentsqz h2 {
     line-height: 24px;
     font-size: 22px;
     letter-spacing: 2px;
-    margin-top: 15%;
 }
 .bigerImage .content h2 {
     margin-top: 0%;
