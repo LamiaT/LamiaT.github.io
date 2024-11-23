@@ -155,7 +155,7 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
 }
 #top-bar h1 a {
     display: block;
-    background: URL(../images/logo.png) no-repeat 0 0;
+    background: URL(../images/logo.webp) no-repeat 0 0;
     text-decoration: none;
     text-indent: -9999px;
     overflow: hidden;
